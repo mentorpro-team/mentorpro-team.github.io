@@ -8,6 +8,7 @@ Kết quả ghi ra thư mục ``docs/`` để GitHub Pages serve.
 
 from __future__ import annotations
 
+import datetime
 import re
 import shutil
 import sys
@@ -27,6 +28,8 @@ SRC = ROOT / "MentorPro.md"
 TEMPLATE = ROOT / "templates" / "index.html"
 ASSETS_DIR = ROOT / "assets"
 OUT_DIR = ROOT / "docs"
+
+SITE_URL = "https://mentorpro-team.github.io/portfolio/"
 
 TAB_HEADER_RE = re.compile(r"^# Tab (\d+)\s*[—-]\s*(.+?)\s*$", re.MULTILINE)
 TOC_LINK_RE = re.compile(r"\n\[⬆ Về mục lục\][^\n]*\n")
@@ -131,6 +134,34 @@ def copy_assets() -> None:
             shutil.copytree(asset, target)
 
 
+def write_robots() -> None:
+    """Allow all crawlers and point to the sitemap."""
+    txt = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        f"Sitemap: {SITE_URL}sitemap.xml\n"
+    )
+    (OUT_DIR / "robots.txt").write_text(txt, encoding="utf-8")
+
+
+def write_sitemap() -> None:
+    """Single-page sitemap with today's lastmod."""
+    today = datetime.date.today().isoformat()
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        '  <url>\n'
+        f'    <loc>{SITE_URL}</loc>\n'
+        f'    <lastmod>{today}</lastmod>\n'
+        '    <changefreq>weekly</changefreq>\n'
+        '    <priority>1.0</priority>\n'
+        '  </url>\n'
+        '</urlset>\n'
+    )
+    (OUT_DIR / "sitemap.xml").write_text(xml, encoding="utf-8")
+
+
 def main() -> None:
     if not SRC.exists():
         raise SystemExit(f"Không tìm thấy {SRC}")
@@ -148,6 +179,9 @@ def main() -> None:
 
     if ASSETS_DIR.exists():
         copy_assets()
+
+    write_robots()
+    write_sitemap()
 
     nojekyll = OUT_DIR / ".nojekyll"
     if not nojekyll.exists():

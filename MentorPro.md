@@ -80,7 +80,7 @@
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/trang-ant.png" alt="">
+  <img class="story-thumb" src="images/stories/trang-ant.png" alt="Trang nhận offer Java Developer @ ANT Group">
   <div class="story-meta">
     <span class="story-num">#1</span>
     <span class="story-title">Trang — Fresh grad → ANT Group</span>
@@ -204,7 +204,7 @@ Dạ trước đó em cũng đã phỏng vấn tại một số công ty như Mi
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/khanhchuong-anz.png" alt="">
+  <img class="story-thumb" src="images/stories/khanhchuong-anz.png" alt="Khánh Chương pass ANZ — câu chuyện về behavior interview">
   <div class="story-meta">
     <span class="story-num">#2</span>
     <span class="story-title">Khánh Chương — 3-4y Backend → ANZ</span>
@@ -319,7 +319,7 @@ Em nghĩ là mọi người nên ôn kỹ DSA, System Design, nhưng đừng xem
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/tien-sap.png" alt="">
+  <img class="story-thumb" src="images/stories/tien-sap.png" alt="Tiên nhận 2 offer SAP và Naver — 4.5 năm Java Banking">
   <div class="story-meta">
     <span class="story-num">#3</span>
     <span class="story-title">Tiên — 4.5y Java/Banking → SAP + Naver</span>
@@ -482,7 +482,7 @@ Hiện tại em muốn nghỉ ngơi một chút sau đợt phỏng vấn căng t
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/chan-deputy.png" alt="">
+  <img class="story-thumb" src="images/stories/chan-deputy.png" alt="Chấn nhận offer mid-level Backend @ Deputy team Úc">
   <div class="story-meta">
     <span class="story-num">#4</span>
     <span class="story-title">Chấn — 5+y Backend Outsource → Deputy (team Úc)</span>
@@ -548,7 +548,7 @@ Mình có vài lời khuyên chân thành:
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/viet-vinbigdata.png" alt="">
+  <img class="story-thumb" src="images/stories/viet-vinbigdata.png" alt="Việt nhận offer VinBigData — học viên trái ngành Ngôn ngữ">
   <div class="story-meta">
     <span class="story-num">#5</span>
     <span class="story-title">Việt — Trái ngành Ngôn ngữ → VinBigData</span>
@@ -652,7 +652,7 @@ Một điều mình thấy rất quan trọng là có người đồng hành. Kh
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/hau-nab.png" alt="">
+  <img class="story-thumb" src="images/stories/hau-nab.png" alt="Hậu nhận offer Sub Engineer @ NAB Úc — 4+ năm Backend">
   <div class="story-meta">
     <span class="story-num">#6</span>
     <span class="story-title">Hậu — 4+y Backend → NAB Úc (Sub Engineer)</span>
@@ -748,7 +748,7 @@ Theo mình, điều quan trọng nhất là kiên trì và tuân thủ lộ trì
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
-  <img class="story-thumb" src="images/stories/long-mbbank.png" alt="">
+  <img class="story-thumb" src="images/stories/long-mbbank.png" alt="Long nhận offer Backend @ MB Bank — chuyển từ game sang backend">
   <div class="story-meta">
     <span class="story-num">#7</span>
     <span class="story-title">Long — 5y Game Dev → MB Bank Backend</span>
