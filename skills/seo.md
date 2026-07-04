@@ -13,7 +13,7 @@
 | `<meta name="keywords">` | MentorPro, mentor 1-1, Big Tech, … |
 | `<meta name="author">` | MentorPro |
 | `<meta name="theme-color">` | `#0b1020` (PWA, mobile browser chrome) |
-| `<link rel="canonical">` | https://mentorpro-team.github.io/portfolio/ |
+| `<link rel="canonical">` | https://mentorpro-team.github.io/ |
 | `<link rel="icon">` | mentor-pro.png |
 | `<link rel="apple-touch-icon">` | mentor-pro.png |
 
@@ -83,7 +83,7 @@ Tự sinh bởi `build.py`:
 ### 1. Verify meta tags được serve đúng
 
 ```bash
-curl -sL https://mentorpro-team.github.io/portfolio/ | grep -iE 'og:image|twitter:card|<title>'
+curl -sL https://mentorpro-team.github.io/ | grep -iE 'og:image|twitter:card|<title>'
 ```
 
 ### 2. Test FB / Messenger preview
@@ -112,14 +112,14 @@ Paste URL → check schema parser nhận diện được Organization + WebSite 
 ### 6. Verify sitemap & robots
 
 ```bash
-curl https://mentorpro-team.github.io/portfolio/robots.txt
-curl https://mentorpro-team.github.io/portfolio/sitemap.xml
+curl https://mentorpro-team.github.io/robots.txt
+curl https://mentorpro-team.github.io/sitemap.xml
 ```
 
 ### 7. Page speed / Lighthouse
 
 ```text
-https://pagespeed.web.dev/?url=https://mentorpro-team.github.io/portfolio/
+https://pagespeed.web.dev/?url=https://mentorpro-team.github.io/
 ```
 
 Mục tiêu: SEO score ≥ 95, Performance ≥ 80.
@@ -127,7 +127,7 @@ Mục tiêu: SEO score ≥ 95, Performance ≥ 80.
 ### 8. Submit sitemap lên Google Search Console
 
 1. Verify domain ownership tại https://search.google.com/search-console
-2. Submit sitemap `https://mentorpro-team.github.io/portfolio/sitemap.xml`
+2. Submit sitemap `https://mentorpro-team.github.io/sitemap.xml`
 3. Sau ~ngày-tuần, Google sẽ index trang
 
 ## Improvements chưa làm (future)

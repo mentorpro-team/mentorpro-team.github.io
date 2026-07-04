@@ -142,7 +142,7 @@ Acceptance criteria:
 - `build.py` now defines a `CONFIG` dict (`SITE_URL`, `SITE_NAME`, `OG_IMAGE_URL`, `LOGO_URL`).
 - `templates/index.html` uses placeholders `{{SITE_URL}}`, `{{SITE_NAME}}`, `{{OG_IMAGE_URL}}`, `{{LOGO_URL}}` everywhere (canonical, og:*, twitter:image, JSON-LD `@id` / `url` / `logo` / `image`, etc.).
 - `build_html` substitutes all `{{KEY}}` placeholders from `CONFIG` at build time.
-- Verify: `rg "mentorpro-team.github.io/portfolio"` returns only references in `build.py` (config), `skills/` (docs), and the existing `issue/` audit — not in `templates/` or generated `docs/index.html` (post-substitution).
+- Verify: `rg "mentorpro-team.github.io"` returns only references in `build.py` (config), `skills/` (docs), and the existing `issue/` audit — not in `templates/` or generated `docs/index.html` (post-substitution).
 
 To switch domain (e.g. custom `mentorpro.com`):
 1. Update 4 lines in `build.py` (`SITE_URL`, derived constants).
@@ -151,7 +151,7 @@ To switch domain (e.g. custom `mentorpro.com`):
 
 Evidence:
 - `build.py:32` defines `SITE_URL`, but it only drives `robots.txt` and `sitemap.xml`.
-- `templates/index.html:9`, `18`, `21`, `22`, `32`, `42`, `45`, `46`, `47`, `66`, `68`, `70` hard-code `https://mentorpro-team.github.io/portfolio/`.
+- `templates/index.html:9`, `18`, `21`, `22`, `32`, `42`, `45`, `46`, `47`, `66`, `68`, `70` hard-code `https://mentorpro-team.github.io/`.
 - Docs under `skills/` also mention the same URL in several places.
 
 Why this matters:
@@ -169,7 +169,7 @@ Suggested fix:
 
 Acceptance criteria:
 - A single config value controls canonical, `og:url`, JSON-LD URLs, robots sitemap URL, and sitemap `<loc>`.
-- `rg "mentorpro-team.github.io/portfolio"` returns only the config/default docs references expected.
+- `rg "mentorpro-team.github.io"` returns only the config/default docs references expected.
 
 ## ✅ P1 - Sitemap `lastmod` Uses Build Date Instead Of Content Modified Date — FIXED
 

@@ -32,7 +32,7 @@ ASSETS_DIR = ROOT / "assets"
 OUT_DIR = ROOT / "docs"
 
 # ── Single source of truth cho các URL/asset path công khai ────────────────
-SITE_URL = "https://mentorpro-team.github.io/portfolio/"
+SITE_URL = "https://mentorpro-team.github.io/"
 SITE_NAME = "MentorPro"
 OG_IMAGE_URL = SITE_URL + "images/brand/banner-job-offer.jpg"
 LOGO_URL = SITE_URL + "images/brand/mentor-pro.png"

@@ -6,7 +6,7 @@
 - **Source branch:** `main`
 - **Folder:** `/docs`
 - **Repo:** https://github.com/mentorpro-team/portfolio
-- **Live URL:** https://mentorpro-team.github.io/portfolio/
+- **Live URL:** https://mentorpro-team.github.io/
 - **HTTPS:** Tự động qua GH Pages (Let's Encrypt cert)
 
 ## Deploy workflow
@@ -83,12 +83,12 @@ gh run list --limit 3        # cần gh CLI
 # https://github.com/mentorpro-team/portfolio/actions
 
 # Verify content đã deploy
-curl -sL https://mentorpro-team.github.io/portfolio/ | grep -i "<title>"
+curl -sL https://mentorpro-team.github.io/ | grep -i "<title>"
 
 # Check critical assets
-curl -I https://mentorpro-team.github.io/portfolio/images/brand/banner-job-offer.jpg
-curl     https://mentorpro-team.github.io/portfolio/robots.txt
-curl     https://mentorpro-team.github.io/portfolio/sitemap.xml
+curl -I https://mentorpro-team.github.io/images/brand/banner-job-offer.jpg
+curl     https://mentorpro-team.github.io/robots.txt
+curl     https://mentorpro-team.github.io/sitemap.xml
 ```
 
 Tất cả nên return 200 OK.
@@ -135,7 +135,7 @@ grep -rn "<x>.png" --include='*.html' --include='*.md' --include='*.css'
    - hoặc `CNAME` `www.mentorpro.com` → `mentorpro-team.github.io`
 4. Trong Settings → Pages, nhập custom domain → Save
 5. Đợi GH verify SSL (~24h)
-6. **Update everywhere:** đổi `https://mentorpro-team.github.io/portfolio/` thành `https://mentorpro.com/` trong:
+6. **Update everywhere:** đổi `https://mentorpro-team.github.io/` thành `https://mentorpro.com/` trong:
    - JSON-LD (`@id`, `url`, `image`, `sameAs`)
    - og:* tags
    - canonical link
