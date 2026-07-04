@@ -37,6 +37,11 @@ SLUGS = [
     "viet-vinbigdata",
     "hau-nab",
     "long-mbbank",
+    "tuan-vin",
+    "khanhchuong-vin-grab",
+    "dat-axon",
+    "hieu-ibm-vin",
+    "thy-cognizant",
 ]
 
 

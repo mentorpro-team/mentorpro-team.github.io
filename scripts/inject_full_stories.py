@@ -17,15 +17,26 @@ from typing import List
 ROOT = Path(__file__).resolve().parent.parent
 MD_FILE = ROOT / "MentorPro.md"
 
-# slug used in `images/stories/<slug>.png` → Google Doc ID
-DOCS = {
-    "trang-ant":       "1dKO3nX95OHFc8O0fJFIX3emZZpR_FsX2tuHeWPznvJU",
-    "khanhchuong-anz": "1YnNcmocI559_0t1cXr-eMdl8uZ-_OSG-U0LR_88VoHI",
-    "tien-sap":        "1krzWbkd21HgEMBNg_zsDQlcaWBnjAcFah4IdJRUUISc",
-    "chan-deputy":     "1p5gqA4gKxnYrY5VaOIYUFNLgLJEYQpPFs9BdKUwS0uE",
-    "viet-vinbigdata": "1NMyBX2edG1MbaG1aAy29qtQkb2e38CymbHyHfw1GYAk",
-    "hau-nab":         "117FZewuFX_dvdefZeYTrqCal0qJSlmwiE4VfnDORpiQ",
-    "long-mbbank":     "1rSQpLq6WVAZnQr6h2WPJOPX_WS1O0QU0OV_ADSJf6H8",
+# slug (matches `images/stories/<slug>.png`) → Google Doc ID.
+# Value is either a single doc ID (str) or a list of doc IDs (multi-part
+# stories are fetched, parsed and joined with a `---` separator so both
+# chapters appear in one accordion — e.g. Hiếu with IBM part + Vin part).
+DOCS: dict[str, str | list[str]] = {
+    "trang-ant":            "1dKO3nX95OHFc8O0fJFIX3emZZpR_FsX2tuHeWPznvJU",
+    "khanhchuong-anz":      "1YnNcmocI559_0t1cXr-eMdl8uZ-_OSG-U0LR_88VoHI",
+    "tien-sap":             "1krzWbkd21HgEMBNg_zsDQlcaWBnjAcFah4IdJRUUISc",
+    "chan-deputy":          "1p5gqA4gKxnYrY5VaOIYUFNLgLJEYQpPFs9BdKUwS0uE",
+    "viet-vinbigdata":      "1NMyBX2edG1MbaG1aAy29qtQkb2e38CymbHyHfw1GYAk",
+    "hau-nab":              "117FZewuFX_dvdefZeYTrqCal0qJSlmwiE4VfnDORpiQ",
+    "long-mbbank":          "1rSQpLq6WVAZnQr6h2WPJOPX_WS1O0QU0OV_ADSJf6H8",
+    "tuan-vin":             "1i9ZXXwPVM1n129X3he4Bvyhg3UwMAU8xABY1niU4SDk",
+    "khanhchuong-vin-grab": "134kNAu_Eu0bq-uwUFYqI7VBP5cFjgZQ4PAwXehfLEG0",
+    "dat-axon":             "18Ve_c-9iPEUeNGe3KlLgrStmDmR9G4VivchFsDXSaJ8",
+    "hieu-ibm-vin": [
+        "1VZQS1o-PpY9EPrM9WzBG2Ypf56TCd2wcSIGUTWX4XJw",  # P1 — IBM
+        "1037Rl-zAmKHTvD9_OwiJPrM1EC58SpTC4DqI3WGId2g",  # P2 — Vin
+    ],
+    "thy-cognizant":        "1W2I0joSSXvS6st_Huebdul2z4QY-tfGvorKOdBIho4s",
 }
 
 
@@ -181,11 +192,16 @@ def parse_doc(raw: str) -> str:
 
 
 def replace_story_body(md: str, slug: str, new_body: str) -> str:
-    """Replace everything between `</summary>` and `</details>` for a given story."""
-    # Find the <details> block containing the given image slug
+    """Replace everything between `</summary>` and `</details>` for a given story.
+
+    The slug is matched against the story-thumb image reference. Supports both
+    the original layout (`images/stories/<slug>.png`) and the optimized
+    thumbnail layout (`images/stories/thumbs/<slug>.jpg`) so the script keeps
+    working across image pipeline changes.
+    """
     detail_pattern = re.compile(
         r'(<details class="story-card" markdown="1">\s*\n<summary class="story-summary">[\s\S]*?'
-        rf'images/stories/{re.escape(slug)}\.png'
+        rf'images/stories/(?:thumbs/)?{re.escape(slug)}\.(?:png|jpg|jpeg|webp)'
         r'[\s\S]*?</summary>\n)'
         r'([\s\S]*?)'
         r'(\n</details>)',
@@ -203,12 +219,35 @@ def replace_story_body(md: str, slug: str, new_body: str) -> str:
     return new_md
 
 
-def main() -> None:
-    md = MD_FILE.read_text(encoding="utf-8")
-    for slug, doc_id in DOCS.items():
-        print(f"▶ Fetching {slug} …")
+def build_body(slug: str, doc_value: str | list[str]) -> str:
+    """Return combined markdown body for a story (single-doc or multi-part).
+
+    Multi-part stories (Hiếu case) have `list[str]` values: each doc is
+    fetched, parsed, and joined with a horizontal rule so both interviews
+    render inside the same accordion.
+    """
+    if isinstance(doc_value, str):
+        doc_ids = [doc_value]
+    else:
+        doc_ids = list(doc_value)
+
+    parts: list[str] = []
+    for idx, doc_id in enumerate(doc_ids, start=1):
+        if len(doc_ids) > 1:
+            print(f"    ▪ part {idx}/{len(doc_ids)}: {doc_id}")
         raw = fetch_doc_text(doc_id)
         body = parse_doc(raw)
+        if body.strip():
+            parts.append(body)
+
+    return "\n\n---\n\n".join(parts)
+
+
+def main() -> None:
+    md = MD_FILE.read_text(encoding="utf-8")
+    for slug, doc_value in DOCS.items():
+        print(f"▶ Fetching {slug} …")
+        body = build_body(slug, doc_value)
         if not body.strip():
             print(f"  ✗ Empty body, skipping {slug}")
             continue
