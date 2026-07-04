@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex" />
+  <title>MentorPro — Đang chuyển hướng…</title>
+  <script>
+    (function () {
+      var path = window.location.pathname.replace(/^\//, '');
+      var search = window.location.search;
+      var hash = window.location.hash;
+      var qs = '?p=' + encodeURIComponent(path.replace(/\/$/, ''));
+      if (search) qs += '&' + search.slice(1);
+      window.location.replace('/' + qs + hash);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/"></noscript>
+</head>
+<body>
+  <p style="font-family:system-ui,sans-serif;text-align:center;margin:80px 24px">
+    Đang chuyển về <a href="/">MentorPro</a> …
+  </p>
+</body>
+</html>

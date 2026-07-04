@@ -102,17 +102,22 @@ def render_markdown(body_md: str) -> str:
     return md.convert(body_md)
 
 
-def build_html(template: str, title: str, tagline: str, tabs: list[dict]) -> str:
+def build_html(template: str, title: str, tagline: str, tabs: list[dict]) -> tuple[str, list[str]]:
     nav_items = []
     panels = []
 
     title_safe = html.escape(title, quote=False)
 
+    tab_slugs: list[str] = []
     for idx, tab in enumerate(tabs):
         is_active = idx == 0
         slug = slugify(tab["title"])
-        panel_id = f"tab-{tab['num']}-{slug}"
-        button_id = f"tab-btn-{tab['num']}-{slug}"
+        tab_slugs.append(slug)
+        # Panel id = slug (drops the noisy `tab-N-` prefix so URLs stay clean
+        # when routing via pathname: /thong-tin-mentor, /cau-chuyen-thanh-cong…).
+        # Button id keeps the `nav-` prefix to remain unique.
+        panel_id = slug
+        button_id = f"nav-{slug}"
         tab_title_safe = html.escape(tab["title"], quote=False)
 
         nav_items.append(
@@ -147,7 +152,7 @@ def build_html(template: str, title: str, tagline: str, tabs: list[dict]) -> str
     # Replace centralized config placeholders ({{SITE_URL}}, {{OG_IMAGE_URL}}, …)
     for key, value in CONFIG.items():
         result = result.replace("{{" + key + "}}", value)
-    return result
+    return result, tab_slugs
 
 
 def copy_assets() -> None:
@@ -210,21 +215,72 @@ def _content_last_modified() -> str:
     return datetime.date.today().isoformat()
 
 
-def write_sitemap() -> None:
-    """Single-page sitemap; lastmod = max(content file mtimes / git commit)."""
+def write_sitemap(tab_slugs: list[str] | None = None) -> None:
+    """Sitemap.xml with the homepage plus a URL for each tab slug.
+
+    ``lastmod`` uses ``_content_last_modified()`` so rebuilds without source
+    changes do not bump the timestamp. When JS is enabled, deep-linked URLs
+    (``/thong-tin-mentor``, ``/lien-he``, …) resolve to the same page and
+    auto-activate the correct tab; when JS is disabled, they fall back to
+    the homepage via ``docs/404.html``.
+    """
     last_mod = _content_last_modified()
-    xml = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        '  <url>\n'
-        f'    <loc>{SITE_URL}</loc>\n'
-        f'    <lastmod>{last_mod}</lastmod>\n'
-        '    <changefreq>weekly</changefreq>\n'
-        '    <priority>1.0</priority>\n'
-        '  </url>\n'
-        '</urlset>\n'
+    slugs = tab_slugs or []
+
+    urls = [(SITE_URL, "1.0", "weekly")]
+    for slug in slugs[1:]:  # skip the first slug — it's the root URL
+        urls.append((f"{SITE_URL}{slug}", "0.8", "monthly"))
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for loc, priority, changefreq in urls:
+        lines.append('  <url>')
+        lines.append(f'    <loc>{loc}</loc>')
+        lines.append(f'    <lastmod>{last_mod}</lastmod>')
+        lines.append(f'    <changefreq>{changefreq}</changefreq>')
+        lines.append(f'    <priority>{priority}</priority>')
+        lines.append('  </url>')
+    lines.append('</urlset>')
+    (OUT_DIR / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_404() -> None:
+    """GitHub Pages SPA-routing helper.
+
+    When a visitor hits ``/lien-he`` or any other pretty URL directly,
+    GitHub Pages returns 404 because no such file exists. This ``404.html``
+    catches those requests and redirects to ``/?p=<slug>``. The main
+    ``index.html`` boot script reads ``?p=`` and restores the original path
+    via ``history.replaceState`` before activating the matching tab, so the
+    user never sees the ``?p=`` in the URL bar.
+    """
+    html_doc = (
+        "<!DOCTYPE html>\n"
+        '<html lang="vi">\n'
+        "<head>\n"
+        '  <meta charset="UTF-8" />\n'
+        '  <meta name="robots" content="noindex" />\n'
+        "  <title>MentorPro — Đang chuyển hướng…</title>\n"
+        "  <script>\n"
+        "    (function () {\n"
+        "      var path = window.location.pathname.replace(/^\\//, '');\n"
+        "      var search = window.location.search;\n"
+        "      var hash = window.location.hash;\n"
+        "      var qs = '?p=' + encodeURIComponent(path.replace(/\\/$/, ''));\n"
+        "      if (search) qs += '&' + search.slice(1);\n"
+        "      window.location.replace('/' + qs + hash);\n"
+        "    })();\n"
+        "  </script>\n"
+        '  <noscript><meta http-equiv="refresh" content="0; url=/"></noscript>\n'
+        "</head>\n"
+        "<body>\n"
+        '  <p style="font-family:system-ui,sans-serif;text-align:center;margin:80px 24px">\n'
+        '    Đang chuyển về <a href="/">MentorPro</a> …\n'
+        "  </p>\n"
+        "</body>\n"
+        "</html>\n"
     )
-    (OUT_DIR / "sitemap.xml").write_text(xml, encoding="utf-8")
+    (OUT_DIR / "404.html").write_text(html_doc, encoding="utf-8")
 
 
 def main() -> None:
@@ -237,16 +293,17 @@ def main() -> None:
     intro_md, tabs = split_tabs(md_text)
     title, tagline = extract_hero(intro_md)
     template = TEMPLATE.read_text(encoding="utf-8")
-    html = build_html(template, title, tagline, tabs)
+    html_out, tab_slugs = build_html(template, title, tagline, tabs)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "index.html").write_text(html, encoding="utf-8")
+    (OUT_DIR / "index.html").write_text(html_out, encoding="utf-8")
 
     if ASSETS_DIR.exists():
         copy_assets()
 
     write_robots()
-    write_sitemap()
+    write_sitemap(tab_slugs)
+    write_404()
 
     nojekyll = OUT_DIR / ".nojekyll"
     if not nojekyll.exists():
