@@ -9,6 +9,7 @@ Kết quả ghi ra thư mục ``docs/`` để GitHub Pages serve.
 from __future__ import annotations
 
 import datetime
+import hashlib
 import html
 import re
 import shutil
@@ -152,7 +153,33 @@ def build_html(template: str, title: str, tagline: str, tabs: list[dict]) -> tup
     # Replace centralized config placeholders ({{SITE_URL}}, {{OG_IMAGE_URL}}, …)
     for key, value in CONFIG.items():
         result = result.replace("{{" + key + "}}", value)
+    # Bust CDN/browser cache for style.css and script.js on every content
+    # change — otherwise GH Pages edge nodes serve stale CSS for up to 30 min.
+    result = _bust_asset_cache(result)
     return result, tab_slugs
+
+
+def _asset_hash(path: Path) -> str:
+    """Short (8-char) content hash for cache-busting query strings."""
+    if not path.exists():
+        return "0"
+    return hashlib.sha1(path.read_bytes()).hexdigest()[:8]
+
+
+def _bust_asset_cache(html_out: str) -> str:
+    css_v = _asset_hash(ASSETS_DIR / "style.css")
+    js_v = _asset_hash(ASSETS_DIR / "script.js")
+    html_out = re.sub(
+        r'(href=")style\.css(")',
+        rf'\1style.css?v={css_v}\2',
+        html_out,
+    )
+    html_out = re.sub(
+        r'(src=")script\.js(")',
+        rf'\1script.js?v={js_v}\2',
+        html_out,
+    )
+    return html_out
 
 
 STORY_BLOCK_RE = re.compile(
@@ -272,6 +299,7 @@ def _write_story_page(
     page = template
     for key, value in substitutions.items():
         page = page.replace("{{" + key + "}}", value)
+    page = _bust_asset_cache(page)
 
     out_dir = OUT_DIR / "success-story" / story["slug"]
     out_dir.mkdir(parents=True, exist_ok=True)
