@@ -1379,10 +1379,21 @@ a.story-card:hover .story-arrow {
   display: block;
   width: 100%;
   height: auto;
-  margin: 8px 0 28px;
+  margin: 8px 0 20px;
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
+}
+
+.story-privacy-note {
+  margin: 0 0 26px;
+  padding: 10px 16px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-soft);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(34, 211, 238, 0.06));
+  border-left: 3px solid var(--brand);
+  border-radius: var(--radius-sm);
 }
 
 .story-body h3 {
