@@ -1805,6 +1805,19 @@ Khi học theo cách đó, em vừa ghi nhớ được DSA, vừa hiểu đượ
 
 <img class="lo-trinh-banner" src="images/brand/lo-trinh-mentor-pro.png" alt="Lộ trình huấn luyện cùng MentorPro — 3 bước: Screening CV, trao đổi với mentor, tham gia chương trình huấn luyện" width="720" height="720" loading="lazy" decoding="async">
 
+### Video giới thiệu — Cách MentorPro training & mentor 1:1
+
+<div class="video-embed" markdown="0">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/c-JmVQ_vdnI"
+    title="MentorPro — Cách training & mentor 1:1 giúp học viên chinh phục job offer"
+    loading="lazy"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</div>
+
 ### 3 bước để trở thành mentee
 
 #### Bước 1 · Screening CV
