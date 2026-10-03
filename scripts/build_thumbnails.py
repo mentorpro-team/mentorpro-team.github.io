@@ -42,6 +42,9 @@ SLUGS = [
     "dat-axon",
     "hieu-ibm-vin",
     "thy-cognizant",
+    "an-axon",
+    "xuan-fpt",
+    "phuongthao-grab",
 ]
 
 

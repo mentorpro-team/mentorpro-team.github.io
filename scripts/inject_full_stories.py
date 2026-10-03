@@ -37,6 +37,9 @@ DOCS: dict[str, str | list[str]] = {
         "1037Rl-zAmKHTvD9_OwiJPrM1EC58SpTC4DqI3WGId2g",  # P2 — Vin
     ],
     "thy-cognizant":        "1W2I0joSSXvS6st_Huebdul2z4QY-tfGvorKOdBIho4s",
+    "an-axon":              "1g6a5A26gM7BoPxQvsmCukW9vOIZqZ3hSAWhzwqM4RQc",
+    "xuan-fpt":             "19RnHteZ8pm3taQcuEXQqv8Ui1kEG-XFE7D8-2-mj3gU",
+    "phuongthao-grab":      "1ggng6V3s_5sF3j8f2IZfXIbq5QaaffVBFJyzGHJjYeY",
 }
 
 

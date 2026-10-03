@@ -69,8 +69,8 @@
 
 ### Highlights *(từ 7/2025 — tháng thành lập)*
 
-- **30 học viên** đã nhận offer, trong đó **15 offer** từ **5 mentor Big Tech** được công khai chia sẻ ở 12 câu chuyện bên dưới.
-- Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant**.
+- **33 học viên** đã nhận offer, trong đó **18 offer** từ **5 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
+- Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT**.
 - Học viên đa dạng: fresh grad → 5+ năm kinh nghiệm, từ outsource đến trái ngành.
 - Trung bình **2 – 6 tháng** từ khi vào lộ trình tới khi nhận offer.
 
@@ -78,7 +78,7 @@
 
 ---
 
-### 12 câu chuyện — click vào để đọc chi tiết
+### 15 câu chuyện — click vào để đọc chi tiết
 
 <details class="story-card" markdown="1">
 <summary class="story-summary">
@@ -675,7 +675,7 @@ Hãy cùng lắng nghe hành trình trưởng thành và những bài học quý
 
 Mình tốt nghiệp ngành Công nghệ thông tin ở 1 trường Đại học tại TP.HCM. Sau khi ra trường, mình đã có hơn 4 năm kinh nghiệm làm việc trong lĩnh vực phần mềm, từng đảm nhiệm nhiều vị trí ở ba công ty trong và ngoài nước. Công việc của mình chủ yếu xoay quanh phát triển backend, triển khai hệ thống và giải quyết các bài toán kỹ thuật ở quy mô thực tế. Nhờ vậy, mình tích lũy được nhiều kinh nghiệm về xử lý dữ liệu, xây dựng API và tối ưu hiệu năng hệ thống.
 
-Sắp tới, mình sẽ chính thức đảm nhận vai trò Sub Engineer tại NAB, nơi mình có cơ hội làm việc trong môi trường chuyên nghiệp, tiếp cận quy trình phát triển sản phẩm quy mô lớn và có định hướng nghề nghiệp rõ ràng hơn.
+Sắp tới, mình sẽ chính thức đảm nhận vai trò SWE Engineer tại NAB, nơi mình có cơ hội làm việc trong môi trường chuyên nghiệp, tiếp cận quy trình phát triển sản phẩm quy mô lớn và có định hướng nghề nghiệp rõ ràng hơn.
 
 **Điều gì khiến bạn quyết định theo học cả hai chương trình của Engineer Pro và Mentor Pro?**
 
@@ -1791,6 +1791,452 @@ Khi học theo cách đó, em vừa ghi nhớ được DSA, vừa hiểu đượ
 *Hành trình của bạn nữ ấy là minh chứng rõ ràng cho việc nền tảng kỹ thuật vững chắc kết hợp với sự đồng hành sát sao từ mentor có thể giúp một kỹ sư vượt qua giới hạn của bản thân. Từ xuất phát điểm là một Data Engineer chỉ làm việc trên một phần nhỏ của hệ thống, bạn đã từng bước xây dựng tư duy tổng thể về kiến trúc hệ thống, hiểu cách các thành phần vận hành và tương tác với nhau, đồng thời biết cách kết nối kiến thức DSA với System Design trong các bài toán thực tế.*
 
 *Sau 6 tháng đồng hành cùng Mentor Pro, bạn đã nhận được offer từ Cognizant Australia ở một vị trí có yêu cầu cao về tư duy thiết kế hệ thống và kiến trúc phần mềm, đồng thời tiếp tục chinh phục các vòng phỏng vấn tại Microsoft và TikTok. Với bạn, chìa khóa để tạo nên sự khác biệt không nằm ở việc học thuộc lời giải, mà là hiểu bản chất của vấn đề, biết cách vận dụng kiến thức vào từng use case cụ thể và luôn nhìn hệ thống dưới góc độ của một Senior Engineer. Đây cũng là nền tảng quan trọng giúp các kỹ sư tiến xa hơn trên hành trình chinh phục Big Tech và những vị trí công nghệ hàng đầu trong tương lai.*
+
+
+</details>
+
+<details class="story-card" markdown="1">
+<summary class="story-summary">
+  <img class="story-thumb" src="images/stories/thumbs/an-axon.jpg" alt="Học viên ẩn danh — 2 năm Banking đến verbal offer SWE 1 @ Axon" width="360" height="189" loading="lazy" decoding="async">
+  <div class="story-meta">
+    <span class="story-num">#13</span>
+    <span class="story-title">Học viên ẩn danh — 2y Banking → Verbal offer @ Axon</span>
+    <span class="story-tagline">Mentor anh Lâm · SWE 1 @ Axon · Song song phỏng vấn Grab + NVIDIA · Yêu cầu ẩn danh</span>
+  </div>
+  <span class="story-arrow" aria-hidden="true">▾</span>
+</summary>
+
+### TỪ 2 NĂM KINH NGHIỆM BANKING ĐẾN VERBAL OFFER AXON CỦA HỌC VIÊN MENTOR PRO
+
+Sau 2 năm làm việc trong lĩnh vực banking, chủ yếu phụ trách hệ thống mạng thanh toán cho một ngân hàng tại Hà Nội, học viên bắt đầu hướng đến những cơ hội tại các công ty công nghệ lớn. Tuy chưa có quá nhiều kinh nghiệm phỏng vấn trước đó, bạn nhận thấy mình cần một lộ trình học tập bài bản, cùng sự định hướng sát sao từ những người đã có kinh nghiệm thực tế tại Big Tech.
+
+Đó cũng là lý do bạn lựa chọn tham gia Mentor Pro. Trong quá trình đồng hành, bạn được Mentor Lâm trực tiếp dẫn dắt, tập trung vào DSA, CS Fundamentals, Behavioral Interview và một phần System Design, đồng thời nhận được sự hỗ trợ từ các mentor khác trong những buổi mock interview.
+
+Đến đầu tháng 6, bạn bắt đầu quy trình phỏng vấn tại Axon. Quá trình này kéo dài khoảng một tháng do lịch trình cá nhân khiến các vòng phỏng vấn không thể sắp xếp quá gần nhau. Kết quả, bạn đã vượt qua các vòng phỏng vấn và nhận được verbal offer cho vị trí Software Engineer 1 tại Axon.
+
+Bên cạnh Axon, trong cùng thời điểm, bạn cũng đang trong quá trình phỏng vấn với Grab và NVIDIA.
+
+Dưới đây là những chia sẻ của bạn về hành trình từ lúc lựa chọn Mentor Pro, quá trình chuẩn bị cho đến những trải nghiệm thực tế trong các vòng phỏng vấn tại Axon.
+
+**Trước tiên, bạn có thể giới thiệu sơ qua về bản thân cũng như kinh nghiệm làm việc của mình từ trước đến nay?**
+
+Mình đã có khoảng 2 năm kinh nghiệm làm việc tại một ngân hàng ở Hà Nội. Công việc của mình chủ yếu liên quan đến mảng mạng thanh toán cho ngân hàng.
+
+**Cơ duyên nào khiến bạn lựa chọn tham gia Mentor Pro?**
+
+Ban đầu mình chỉ định học một số khóa học của Engineer Pro thôi. Trước đó mình cũng đã nghe review về chương trình và cảm thấy khá ấn tượng.
+
+Thời điểm đó, Mentor Pro hình như mới mở hoặc đang tuyển những khóa đầu tiên. Mình thấy quảng cáo của chương trình và nhận ra đây là một cơ hội khá hay để có được sự mentorship từ những anh chị đang làm việc tại các công ty Big Tech.
+
+Đó là một trong những lý do khiến mình quyết định tham gia Mentor Pro.
+
+**Trong thời gian tham gia Mentor Pro, bạn được mentor nào trực tiếp dẫn dắt?**
+
+Mình được anh Lâm trực tiếp dẫn dắt. Ngoài anh Lâm, anh Hòa cũng từng mock interview cho mình một buổi. Chị Lam cũng hỗ trợ mình mock interview một buổi vào khoảng tháng 5.
+
+**Bạn đã tham gia Mentor Pro trong khoảng thời gian bao lâu?**
+
+Mình bắt đầu từ tháng 6/2025 và học đến tháng 9/2025. Đến đầu tháng 9 thì mình có việc riêng nên phải tạm dừng và không tham gia nữa. Sau đó, mình quay lại từ tháng 3 năm nay và tiếp tục đồng hành cho đến tháng 6. Đến tháng 6 thì mình có thông tin là đã pass interview.
+
+Như vậy, quá trình của mình có một khoảng thời gian tham gia khoảng 3 tháng, sau đó tạm ngưng một thời gian, rồi từ tháng 3 tiếp tục quay lại cho đến khi có kết quả phỏng vấn.
+
+**Trong khoảng thời gian học tại Mentor Pro, bạn có tham gia các khóa học của Engineer Pro không?**
+
+Mình có tham gia những khóa học hoàn toàn miễn phí của Engineer Pro. Đồng thời, mình cũng tự xem lại recording được phát, tự học và tự ôn thêm theo những nội dung đã được cung cấp.
+
+**Tổng cộng bạn đã tham gia khoảng bao nhiêu khóa học? Và theo bạn, lượng kiến thức nhận được có đủ để chuẩn bị cho các buổi interview không?**
+
+Mình tham gia khoảng 5–6 khóa gì đó. Về lượng kiến thức thì mình thấy để chuẩn bị cho interview là khá đủ.
+
+Tuy nhiên, có một điểm đặc thù đối với trường hợp của mình. Vì mình làm trong lĩnh vực banking nên các câu hỏi liên quan đến nghiệp vụ ngân hàng, đặc biệt là phần thanh toán, cũng đóng vai trò khá quan trọng.
+
+Theo mình thấy, trong một buổi phỏng vấn thường sẽ được chia thành hai phần tương đối cân bằng. Một nửa là những kiến thức về fundamentals những kiến thức mình học được từ Engineer Pro và Mentor Pro. Một nửa còn lại là kiến thức nghiệp vụ riêng của banking.
+
+Ở Axon, mình thấy phía interviewer cũng hỏi khá sâu vào phần nghiệp vụ liên quan đến công việc trước đây của mình.
+
+**Vậy lộ trình mà Mentor Pro xây dựng cho bạn trong quá trình chuẩn bị interview được triển khai như thế nào?**
+
+Mình nhớ trước đây anh Lâm tập trung cho mình ôn về DSA. Chủ yếu là hai khóa DSA 1 và DSA 2. Đồng thời, mình cũng học khá chắc phần CS Fundamentals.
+
+Tiếp theo, mình học khóa Behavioral Interview với mục đích phục vụ cho vòng Behavioral trong quá trình phỏng vấn.
+
+Sau đó, anh Lâm cũng cho mình mock interview và cho học tiếp System Design 1. Tuy nhiên, về sau mình không tập trung quá nhiều vào System Design vì vị trí mình phỏng vấn thường không yêu cầu hỏi sâu về phần này.
+
+Theo mình tìm hiểu và trải nghiệm, chỉ có một số ít công ty hỏi System Design đối với vị trí này. Vì vậy, trọng tâm của mình vẫn là DSA và những phần CS Fundamentals có liên quan trực tiếp đến vị trí ứng tuyển.
+
+**Tại sao bạn lại lựa chọn tham gia Mentor Pro? Trước đó bạn có điểm yếu nào cần cải thiện hoặc từng gặp vấn đề gì trong quá trình phỏng vấn không?**
+
+Thực ra trước đây mình chưa đi phỏng vấn quá nhiều.
+
+Như mình chia sẻ lúc trước, khi tham gia Mentor Pro, mình cũng kỳ vọng có cơ hội ứng tuyển vào những công ty lớn. Và mình nhận thấy điểm mạnh nhất mà Mentor Pro mang lại cho mình chính là network.
+
+Bên cạnh network, sự chu đáo và hỗ trợ của các mentor trong quá trình phỏng vấn cũng giúp mình rất nhiều trong quá trình đi interview.
+
+**Khi apply vào Axon, bạn được referral hay tự apply?**
+
+Mình có referral thông qua network của Mentor Pro.
+
+**Ngoài thời gian tham gia Mentor Pro, bạn đã dành bao nhiêu thời gian để ôn luyện cho process tại Axon? Lộ trình ôn luyện của bạn như thế nào?**
+
+hực ra chủ yếu mình ôn theo những tài liệu Mentor Pro gửi. Mình cũng không dành quá nhiều thời gian để ôn luyện bên ngoài.
+
+**Bạn bắt đầu quy trình phỏng vấn Axon từ thời điểm nào?**
+
+Mình bắt đầu từ đầu tháng 6.
+
+Toàn bộ process của mình trong đợt này kéo dài khoảng một tháng. Tuy nhiên, nguyên nhân chủ yếu là vì mình khá bận nên không thể schedule các buổi phỏng vấn gần nhau.
+
+Còn nếu xét khoảng thời gian giữa các vòng interview thì mình thấy process của Axon khá nhanh. Hầu hết các vòng đều có kết quả sau khoảng một đến hai ngày.
+
+Riêng vòng interview cuối thì mình mất khoảng một tuần để nhận được thông tin là pass hay fail. Sau đó còn có thêm một khoảng thời gian để phía công ty review performance.
+
+**Bạn có thể chia sẻ tổng quan về quy trình phỏng vấn tại Axon không?**
+
+Ở Axon, vòng đầu tiên là vòng với HR. Vòng này chủ yếu hỏi về CV và một số nội dung liên quan đến kinh nghiệm của ứng viên.
+
+Tiếp theo là một vòng interview với interviewer, trong đó có thể hỏi về những kiến thức được đề cập trong CV, CS Fundamentals và một câu coding ở mức Medium. Ở đợt của mình, câu coding liên quan đến dạng bài về string window.
+
+Đến round cuối thì có ba vòng.
+
+Một vòng là Engineering Leadership. Ở vòng này, với trường hợp của mình, interviewer hỏi hai câu về kiến thức database và một câu liên quan đến thiết kế một hệ thống AI để review code. Đây là một câu hỏi khá bất ngờ đối với mình.
+
+Nhìn tổng quan thì round cuối bao gồm một vòng Behavioral, một vòng AI Coding và một vòng kiểm tra kiến thức. Ở vòng kiến thức, interviewer tập trung vào CS Fundamentals và đi sâu vào những kinh nghiệm thực tế mà mình đã có.
+
+**Trong suốt quá trình phỏng vấn, bạn cảm thấy vòng nào khó hoặc áp lực nhất?**
+
+Vòng mình cảm thấy căng thẳng nhất có lẽ là vòng Engineering với AI và vòng hỏi kiến thức chuyên sâu. Đây là hai vòng mà mình cảm thấy khó nhất trong toàn bộ quá trình phỏng vấn.
+
+**Theo bạn, kiến thức tại Mentor Pro cũng như sự dẫn dắt của anh Lâm có đủ để giúp bạn vượt qua quá trình phỏng vấn tại Axon không?**
+
+Thực ra những câu hỏi mà anh Lâm mock interview cho mình khá sát với những gì mình gặp thực tế. Có thể nói là trúng khá nhiều. Đặc biệt, lộ trình mà anh Lâm đưa ra cũng như guidance của anh trong suốt quá trình chuẩn bị khá sát với những gì mình gặp trong các buổi interview thực tế.
+
+Nhờ vậy, mình có sự chuẩn bị tốt hơn khi bước vào các vòng phỏng vấn.
+
+**Nếu đưa ra một lời khuyên dành cho các bạn đang muốn tham gia Mentor Pro hoặc đang chuẩn bị apply vào Axon, bạn sẽ chia sẻ điều gì?**
+
+Mình cũng không có một lời khuyên quá cụ thể.
+
+Nhưng nếu phải đưa ra một điều thì mình nghĩ các bạn nên ôn thật kỹ DSA và đồng thời chuẩn bị thật tốt cho việc sử dụng AI trong công việc hằng ngày.
+
+Đây là hai phần mà mình nghĩ các bạn nên đặc biệt chú ý nếu đang chuẩn bị cho quá trình phỏng vấn hiện nay.
+
+---
+
+*Hành trình của bạn tại Mentor Pro không phải là một đường thẳng. Bắt đầu từ tháng 6/2025, bạn học tập trong khoảng ba tháng trước khi tạm dừng vì công việc cá nhân, sau đó quay trở lại từ tháng 3 và tiếp tục chuẩn bị cho đến khi bước vào quá trình phỏng vấn Axon.*
+
+*Điểm đáng chú ý trong hành trình này không nằm ở việc học thật nhiều hay ôn luyện dàn trải, mà ở việc xác định đúng trọng tâm cần chuẩn bị. Với vị trí Software Engineer 1, bạn tập trung chủ yếu vào DSA, CS Fundamentals và Behavioral Interview, đồng thời chỉ dành mức độ ưu tiên phù hợp cho System Design dựa trên đặc thù vị trí ứng tuyển.*
+
+*Bên cạnh kiến thức chuyên môn, network và sự đồng hành của mentor cũng trở thành một yếu tố quan trọng trong hành trình của bạn. Thông qua network của Mentor Pro, bạn có cơ hội nhận referral để bước vào process tại Axon. Trong quá trình chuẩn bị, những buổi mock interview và guidance từ Mentor Lâm giúp bạn có thêm cơ hội làm quen với cách đặt câu hỏi, xác định những kiến thức cần tập trung và quan trọng hơn là chuẩn bị sát với những gì có thể xuất hiện trong interview thực tế.*
+
+*Kết quả, sau một process kéo dài khoảng một tháng do lịch trình cá nhân, bạn đã vượt qua các vòng phỏng vấn tại Axon và nhận được verbal offer cho vị trí Software Engineer 1. Song song với đó, bạn cũng đang tiếp tục process với Grab và NVIDIA.*
+
+*Từ trải nghiệm thực tế của mình, bạn cho rằng bên cạnh nền tảng DSA và CS Fundamentals, ứng viên hiện nay cũng cần chuẩn bị nghiêm túc cho việc ứng dụng AI vào công việc hằng ngày. Đây cũng là một tín hiệu cho thấy quá trình tuyển dụng kỹ sư phần mềm đang ngày càng đặt ra những yêu cầu đa chiều hơn: không chỉ kiểm tra năng lực coding và kiến thức nền tảng, mà còn đánh giá khả năng ứng dụng công nghệ mới vào công việc thực tế.*
+
+*Với bạn, hành trình tại Mentor Pro không chỉ đơn thuần là một quá trình học thêm kiến thức, mà còn là quá trình được định hướng, mock interview, nhận feedback và chuẩn bị từng bước cho mục tiêu tiến vào những công ty công nghệ lớn. Và verbal offer từ Axon là một trong những dấu mốc quan trọng ghi nhận cho hành trình đó.*
+
+
+</details>
+
+<details class="story-card" markdown="1">
+<summary class="story-summary">
+  <img class="story-thumb" src="images/stories/thumbs/xuan-fpt.jpg" alt="Học viên ẩn danh — 8 năm kinh nghiệm đến offer Server Engineer @ FPT Technology" width="360" height="189" loading="lazy" decoding="async">
+  <div class="story-meta">
+    <span class="story-num">#14</span>
+    <span class="story-title">Học viên ẩn danh — 8y KN → FPT (Server Engineer)</span>
+    <span class="story-tagline">5 tháng tại MentorPro · Nâng cấp năng lực hướng tới công ty quốc tế · Yêu cầu ẩn danh</span>
+  </div>
+  <span class="story-arrow" aria-hidden="true">▾</span>
+</summary>
+
+### TỪ 8 NĂM KINH NGHIỆM ĐẾN OFFER FPT CỦA HỌC VIÊN MENTOR PRO
+
+Không ngừng nâng cấp năng lực để hướng tới những cơ hội lớn hơn
+
+Sau 8 năm làm việc trong lĩnh vực phần mềm và hệ thống sản xuất, học viên Mentor Pro hiện đang là Server Engineer tại FPT Technology Việt Nam đã có một hành trình nghề nghiệp với nhiều trải nghiệm ở các môi trường khác nhau.
+
+Bạn học viên có nền tảng kinh nghiệm thực tế tương đối vững chắc. Tuy nhiên, với mục tiêu tiếp tục nâng cao năng lực và hướng tới những công ty có môi trường tốt hơn trong tương lai, anh vẫn lựa chọn đầu tư nghiêm túc cho quá trình học tập, luyện tập và chuẩn bị phỏng vấn.
+
+Từ việc biết đến Engineer Pro qua YouTube từ năm 2024, từng trải nghiệm các khóa DSA trước khi chính thức tham gia chương trình Mentor Pro vào tháng 2/2026, bạn đã có khoảng 5 tháng đồng hành cùng Mentor Pro trước khi nhận offer từ FPT.
+
+Trong cuộc trò chuyện dưới đây, bạn chia sẻ chi tiết về quá trình làm việc, lý do lựa chọn Mentor Pro, cách học và luyện tập mỗi ngày, trải nghiệm mock interview cùng mentor, quy trình phỏng vấn tại FPT cũng như những bài học rút ra từ các lần phỏng vấn trước đó.
+
+**Trước tiên, bạn có thể giới thiệu một chút về bản thân cũng như kinh nghiệm làm việc của mình từ trước tới nay?**
+
+Em học tại một trường đại học ở Hà Nội, chuyên ngành Công nghệ thông tin/Kỹ thuật phần mềm. Hiện tại em đã có khoảng 8 năm kinh nghiệm làm việc trong lĩnh vực phần mềm và hệ thống sản xuất.
+
+Hiện tại, em chủ yếu làm về backend, tham gia phát triển và vận hành các hệ thống backend của công ty.
+
+**Vậy hiện tại bạn đã nhận offer chính thức từ FPT rồi hay mới chỉ vượt qua vòng phỏng vấn?**
+
+Em đã nhận được offer rồi ạ. Em cũng đã có lịch onboard, dự kiến là ngày 3 tháng tới.
+
+**Cơ duyên nào khiến bạn biết đến Mentor Pro và lý do tại sao bạn quyết định học tập tại đây?**
+
+Em biết đến Engineer Pro từ khoảng năm 2024. Trước đó em có theo dõi kênh YouTube của Engineer Pro. Sau khi biết đến, em đã học hai khóa là DSA 1 và DSA 2. Trong quá trình học, em thấy các anh chị giảng dạy khá dễ hiểu và đặc biệt là rất có tâm.
+
+Sau khi trải nghiệm các khóa học đó, em cảm thấy khá yên tâm về chất lượng đào tạo. Vì vậy, đến năm nay em biết đến Mentor Pro có hợp tác chung với EP nên em mới quyết định đăng ký tham gia Mentor Pro luôn.
+
+Em nghĩ việc mình đã có trải nghiệm trước với các khóa học của Engineer Pro cũng giúp em có thêm niềm tin khi quyết định tham gia chương trình của Mentor Pro.
+
+**Bạn tham gia Mentor Pro được bao lâu rồi?**
+
+Em tham gia từ tháng 2 năm nay, tức là tháng 2/2026. Anh Lâm là mentor dẫn dắt chính của em ạ.
+
+**Sau khoảng 5 tháng đồng hành cùng Mentor Pro, bạn đánh giá như thế nào về chất lượng của chương trình cũng như sự hỗ trợ từ mentor?**
+
+Em thấy việc mình được mock interview thường xuyên giúp em tiến bộ rất nhiều.
+
+Trong quá trình đó, mentor không chỉ đơn thuần đưa cho em các bài để làm mà còn chỉ dẫn khá cụ thể về việc ở thời điểm hiện tại thì mình nên học gì, cần tập trung vào phần nào để có thể tiến bộ nhanh nhất.
+
+Em nghĩ đây là một điểm rất quan trọng. Bởi vì khi tự học, đôi khi mình không biết nên ưu tiên phần nào trước, phần nào sau. Còn khi có mentor đồng hành và theo sát, mình sẽ biết rõ hơn mình đang yếu ở đâu và cần tập trung cải thiện điều gì.
+
+**Khi tham gia Mentor Pro, bạn có được hỗ trợ học thêm những khóa nào của Engineer Pro không?**
+
+Em có được hỗ trợ học thêm một số khóa của Engineer Pro, trong đó có DSA, Backend Go, System Design, các khóa về CS Fundamentals và một số khóa khác.
+
+Nhờ đó em có thể bổ sung thêm kiến thức ở nhiều phần khác nhau thay vì chỉ tập trung vào một nội dung duy nhất.
+
+**Sau quá trình học, bạn cảm thấy điểm yếu nào của bản thân được cải thiện nhiều nhất?**
+
+Em nghĩ điều quan trọng nhất mà em cải thiện được không hẳn chỉ là một kiến thức cụ thể, mà là cách mình tự học và tự phát triển bản thân.
+
+Trước đây, có thể mình học một thứ gì đó thì chủ yếu tập trung vào việc học đúng nội dung đó. Nhưng trong quá trình học tại Mentor Pro, em học được cách để sau này mình có thể tự phát triển, tự tìm hiểu và tự học những kiến thức mới.
+
+Bởi vì trong chương trình, mình được học những kiến thức nền tảng như Computer Science Fundamentals, đồng thời cũng được hướng dẫn về cách tiếp cận và học những công nghệ mới.
+
+Em nghĩ đây là điều quan trọng nhất, bởi vì công nghệ sẽ liên tục thay đổi. Nếu mình chỉ biết những thứ đang có ở thời điểm hiện tại thì chưa chắc đã đủ. Quan trọng hơn là mình phải có khả năng tiếp tục học những thứ mới trong tương lai.
+
+**Còn đối với FPT, đây có phải mục tiêu chính của bạn ngay từ đầu không, hay bạn chỉ tình cờ thấy FPT tuyển dụng rồi quyết định ứng tuyển?**
+
+FPT đối với em chỉ là một mục tiêu ngắn hạn thôi ạ. Về dài hạn, em nghĩ mình vẫn cần hướng tới việc làm việc tại một công ty tốt hơn nữa và có những cơ hội phát triển lớn hơn. Vì vậy, offer FPT là một bước trong hành trình của em chứ chưa phải điểm đến cuối cùng.
+
+**Trong quá trình apply và phỏng vấn tại FPT, ngoài việc ôn luyện theo mentor, bạn có một lộ trình ôn tập nào khác không?**
+
+Chủ yếu ngoài việc ôn theo Mentor Pro thì em cũng làm theo các bài tập hàng ngày mà mentor hướng dẫn. Ví dụ như mình sẽ làm các bài tập toán hàng ngày và duy trì việc luyện tập đều đặn.
+
+Em nghĩ việc luyện tập hàng ngày khá quan trọng, vì nó giúp mình duy trì được thói quen giải quyết vấn đề và không bị ngắt quãng trong quá trình chuẩn bị phỏng vấn.
+
+**Bạn có thể chia sẻ chi tiết hơn về quy trình phỏng vấn tại FPT và cách bạn vượt qua vòng phỏng vấn đó?**
+
+Về quy trình phỏng vấn, đầu tiên em thấy thông tin tuyển dụng của FPT trên Facebook nên em ứng tuyển.
+
+Sau đó em nhận được lịch phỏng vấn. FPT chỉ có một vòng phỏng vấn đối với vị trí mà em ứng tuyển.
+
+Trong vòng phỏng vấn đó, em có làm một vài bài coding ở mức Easy. Chủ yếu interviewer sẽ hỏi về kinh nghiệm làm việc của em và trao đổi xuyên suốt về những kinh nghiệm cũng như công việc mà em đã từng thực hiện.
+
+Nhìn chung, quy trình chỉ có một vòng phỏng vấn thôi ạ.
+
+**Trong vòng phỏng vấn đó, bạn có gặp khó khăn nào không? Hay nhìn chung các câu hỏi khá đơn giản đối với bạn?**
+
+Các bài toán coding thì em thấy khá đơn giản đối với mình.
+
+Một phần là bởi vì em cũng đã làm khá nhiều những dạng bài tương tự trước đó nên em nắm được dạng bài. Khi nhìn vào đề, em có thể nghĩ ra cách giải và triển khai lời giải tương đối nhanh, đồng thời có thể trình bày được cách mình giải quyết bài toán.
+
+Còn về phần trao đổi cá nhân thì em thấy interviewer hỏi cũng khá dễ, không quá khó.
+
+Có một điểm khá thú vị là khi bắt đầu buổi phỏng vấn, interviewer còn hỏi em về sở thích cá nhân. Vì vậy, không khí ban đầu cũng khá thoải mái chứ không hoàn toàn chỉ tập trung vào những câu hỏi kỹ thuật.
+
+**Trước đó bạn từng phỏng vấn ở một số công ty khác và có những lần chưa đạt. Vậy từ những lần đó, bạn có rút ra kinh nghiệm gì cho lần phỏng vấn FPT này không?**
+
+Về cơ bản thì các buổi phỏng vấn ở những công ty trước đó như Viettel hay FPT cũng không khác nhau quá nhiều. Tuy nhiên, em cũng rút ra được một số kinh nghiệm.
+
+Ví dụ, mình cần phải tập trung vào đúng job mà công ty đang tuyển. Mình cần tìm hiểu kỹ vị trí mà họ tuyển, sau đó ôn tập những vấn đề có liên quan trực tiếp đến vị trí đó. Khi mình chuẩn bị đúng vào những phần mà công ty cần, mình sẽ cảm thấy tự tin hơn khi bước vào phỏng vấn.
+
+Em nghĩ đây là một trong những kinh nghiệm khá quan trọng mà em rút ra được sau những lần phỏng vấn trước.
+
+**Theo bạn, kiến thức học tại Engineer Pro cũng như Mentor Pro có đủ để bạn vượt qua quy trình phỏng vấn của FPT không? Hay lượng kiến thức đó còn nhiều hơn mức cần thiết?**
+
+Những kiến thức mà em học tại Engineer Pro và Mentor Pro về cơ bản đã giúp em có nền tảng để chuẩn bị cho quá trình phỏng vấn.
+
+**Trong tương lai, bạn có muốn thử sức ở những công ty lớn hơn, có quy mô và yêu cầu cao hơn không?**
+
+Nếu có cơ hội thì em vẫn muốn thử sức ở những công ty lớn hơn. Hiện tại em vẫn đang duy trì việc luyện tập hàng ngày, vẫn làm các bài tập giống như trong quá trình ôn luyện trước đây để chuẩn bị cho những cơ hội trong tương lai.
+
+Mục tiêu của em không chỉ dừng lại ở FPT. Em muốn tiếp tục nâng cao năng lực để sau này có thể apply vào những công ty lớn hơn.
+
+**Cuối cùng, bạn có lời khuyên nào dành cho những bạn đang học tại Mentor Pro và cũng đang muốn chuẩn bị để phỏng vấn tại các công ty tương tự không?**
+
+Nếu nói theo kinh nghiệm của em thì em nghĩ những bạn thực sự muốn phát triển trong lĩnh vực IT có thể bắt đầu bằng việc theo dõi các nội dung của Engineer Pro và Mentor Pro trên YouTube.
+
+Ngay cả trước khi tham gia chương trình, em cũng đã theo dõi YouTube và nhận được khá nhiều kiến thức hữu ích từ đó. Còn nếu mục tiêu của các bạn là hướng tới những công ty lớn thì em nghĩ việc đăng ký các khóa học của Engineer Pro và chương trình Mentor Pro cũng là một lựa chọn rất tốt.
+
+Qua quá trình học, em thấy các khóa học có chất lượng và khá uy tín. Quan trọng là mình phải thực sự nghiêm túc học tập và luyện tập thì những kiến thức đó mới phát huy được hiệu quả.
+
+---
+
+*Hành trình của học viên tại Mentor Pro không bắt đầu từ con số 0. Với 8 năm kinh nghiệm trong lĩnh vực phần mềm, anh đã có nền tảng chuyên môn và trải nghiệm thực tế đáng kể. Tuy nhiên, chính quá trình học tập và luyện tập có định hướng đã giúp anh nhìn rõ hơn những gì mình cần cải thiện, đặc biệt là khả năng tự học, tự phát triển và chủ động cập nhật kiến thức mới.*
+
+*Từ việc biết đến Engineer Pro qua YouTube, bắt đầu với các khóa DSA 1 và DSA 2, đến khi chính thức tham gia Mentor Pro vào tháng 2/2026 và được mentor Lâm trực tiếp đồng hành, bạn đã duy trì việc học, làm bài tập và mock interview trong nhiều tháng.*
+
+*Kết quả là anh đã vượt qua vòng phỏng vấn duy nhất tại FPT, nhận offer và chuẩn bị onboard vào ngày 3 tháng tới.*
+
+*Nhưng với bạn, offer FPT chỉ là một mục tiêu ngắn hạn. Điều đáng giá hơn sau hành trình này là khả năng tự học và tiếp tục phát triển, một nền tảng cần thiết để anh hướng tới những công ty lớn hơn trong tương lai.*
+
+*Và có lẽ, đó cũng chính là tinh thần quan trọng nhất của hành trình học tập tại Mentor Pro: không chỉ chuẩn bị để vượt qua một buổi phỏng vấn, mà còn xây dựng năng lực để tiếp tục chinh phục những thử thách lớn hơn trên con đường trở thành một kỹ sư phần mềm.*
+
+
+</details>
+
+<details class="story-card" markdown="1">
+<summary class="story-summary">
+  <img class="story-thumb" src="images/stories/thumbs/phuongthao-grab.jpg" alt="Chị Ph.T. — Sinh viên năm cuối nhận offer Intern Grab qua Hackathon sau 3 tháng MentorPro" width="360" height="189" loading="lazy" decoding="async">
+  <div class="story-meta">
+    <span class="story-num">#15</span>
+    <span class="story-title">Chị Ph. T. — SV năm cuối → Intern Grab (qua Hackathon)</span>
+    <span class="story-tagline">Mentor Bảo + Nguyên · 3 tháng · Chưa từng phỏng vấn đã có offer</span>
+  </div>
+  <span class="story-arrow" aria-hidden="true">▾</span>
+</summary>
+
+### CHƯA TỪNG PHỎNG VẤN, ĐÃ CÓ OFFER GRAB SAU 3 THÁNG TẠI MENTOR PRO
+
+Chỉ sau khoảng 3 tháng đồng hành cùng Mentor Pro, một sinh viên năm cuối ngành Công nghệ thông tin đã có cơ hội tham gia Hackathon do Grab phối hợp tổ chức, vượt qua hàng trăm ứng viên và chính thức nhận offer thực tập tại Grab. Điều đặc biệt là trước khi bước vào cuộc thi, bạn cũng không đặt kỳ vọng quá lớn vào kết quả, mà chỉ đơn giản muốn thử sức, tích lũy kinh nghiệm và có thêm một dấu mốc trong CV.
+
+Hành trình này bắt đầu từ một khóa học Java Backend tại Engineer Pro, sau đó tiếp nối bằng chương trình Mentor Pro với sự đồng hành của Mentor Bảo Nguyên. Từ việc được đánh giá năng lực, xây dựng mục tiêu theo từng tuần, đến quá trình rèn luyện DSA, coding và các kiến thức bổ trợ, học viên từng bước chuẩn bị cho những vòng tuyển dụng thực tế.
+
+Trong cuộc trò chuyện với Mentor Pro, học viên đã chia sẻ chi tiết về quá trình học tập, cách chuẩn bị cho Hackathon, những khó khăn gặp phải, cũng như cảm xúc khi bất ngờ nhận được cơ hội thực tập tại Grab.
+
+**Bạn có thể giới thiệu sơ qua về bản thân, background cũng như kinh nghiệm làm việc của mình từ trước đến nay?**
+
+Em hiện là sinh viên năm cuối của Trường Đại học Công nghệ Bưu chính Viễn thông. Định hướng hiện tại của em là trở thành Software Engineer. Sau quá trình học tại Engineer Pro và Mentor Pro, em đã có cơ hội luyện phỏng vấn và trong đợt vừa rồi, em đã đỗ chương trình Internship của Grab.
+
+**Trước khi tham gia Mentor Pro, bạn đã học Engineer Pro hay tham gia Mentor Pro trước?**
+
+Em tham gia một khóa học của Engineer Pro trước, đó là khóa Java Backend.
+
+Sau đó, khoảng vài tháng sau, khi em cảm thấy mình đã gần đến thời điểm tốt nghiệp và muốn có một người mentor trực tiếp chỉ dẫn, định hướng cho mình để chuẩn bị tốt hơn trước khi ra trường, em đã đăng ký Mentor Pro.
+
+**Ngoài lý do muốn có một người mentor đồng hành, điều gì khiến bạn lựa chọn Engineer Pro và Mentor Pro?**
+
+Đương nhiên một trong những lý do là vì Big Tech.
+
+Em thường nghe mọi người nói rằng khi được làm việc trong Big Tech thì ở đó sẽ có một quy trình làm việc bài bản. Bên cạnh đó, kinh nghiệm tại những công ty như vậy cũng có thể tạo giá trị cho CV.
+
+Em cảm thấy điều này đặc biệt có ích đối với một người mới ra trường như em, bởi khi chưa có quá nhiều kinh nghiệm thực tế thì việc được tiếp cận với môi trường và quy trình chuyên nghiệp sẽ giúp mình có thêm lợi thế cho những bước tiếp theo.
+
+**Bạn bắt đầu tham gia Mentor Pro từ khoảng thời gian nào?**
+
+Em bắt đầu từ tháng 4 năm nay, tính đến thời điểm phỏng vấn thì khoảng 3 tháng.
+
+**Bạn đã từng học khóa Java Backend tại Engineer Pro. Bạn đánh giá như thế nào về chất lượng khóa học cũng như các mentor?**
+
+Em đánh giá khóa Backend khá chất lượng. Có rất nhiều kiến thức em chưa được học ở trường, trong khi những kiến thức được truyền đạt trong khóa học lại đi khá sâu vào chuyên môn.
+
+Sau khi học khóa đó, em cảm thấy mình học và luyện được rất nhiều. Những kiến thức này cũng hỗ trợ khá nhiều cho quá trình sau này của em, đặc biệt là khi đi thi hoặc tham gia phỏng vấn.
+
+**Tại Mentor Pro, ai là mentor chính đồng hành cùng bạn?**
+
+Mentor chính của em là anh Bảo Nguyên.
+
+Ban đầu, anh Nguyên sẽ đánh giá mức độ hiện tại của em trước. Sau đó, anh sẽ đưa ra những target cụ thể theo từng tuần. Cuối mỗi tuần, anh sẽ check lại xem em đã làm được đến đâu, tiến độ như thế nào và cần cải thiện những điểm gì.
+
+Nhờ vậy, quá trình học của em có mục tiêu rõ ràng hơn thay vì chỉ tự học một cách khá lan man.
+
+**Ngoài lộ trình tại Mentor Pro, bạn có được giới thiệu học thêm những nội dung nào tại Engineer Pro không?**
+
+Có những khóa hỗ trợ cả về CV lẫn kiến thức chuyên môn của em, chẳng hạn như System Design, DSA, các khóa về project, Redis và một số nội dung khác. Những khóa này bổ trợ thêm cho quá trình học và giúp em có nền tảng kiến thức rộng hơn khi chuẩn bị cho các cơ hội tuyển dụng.
+
+**Trước Grab, bạn đã từng apply hoặc phỏng vấn công ty nào khác chưa?**
+
+Đây là lần đầu tiên em đi phỏng vấn, cũng là lần đầu tiên em có offer. Trước đó, em từng có thời gian thực tập tại một số công ty nhỏ. Nhưng về quá trình apply và phỏng vấn thì Grab là lần đầu tiên em thực sự trải qua một quy trình như vậy.
+
+**Vậy cơ hội apply Grab lần này đến từ referral hay bạn tự tìm kiếm?**
+
+Anh Lâm có một hôm đăng thông tin và giới thiệu vào group Engineer Pro về một cuộc thi dành cho các bạn sinh viên. Đó là một cuộc thi Hackathon. Ban đầu, em thấy thông tin được chia sẻ trong group nên em đăng ký thử. Em nghĩ đơn giản là cứ thử trước, nếu qua được thì mình tiếp tục đi tiếp.
+
+**Đó là một cuộc thi chứ không phải tin tuyển dụng trực tiếp đúng không?**
+
+Đây là một cuộc thi Hackathon được tổ chức để tuyển intern. Tức là Grab sử dụng chính cuộc thi này như một cơ hội để tìm kiếm các ứng viên thực tập.
+
+**Khi tham gia cuộc thi, bạn có ôn luyện gì đặc biệt không hay chủ yếu dựa vào lộ trình Mentor Pro?**
+
+Em thấy lộ trình của Mentor Pro bao trùm khá đầy đủ những phần mà các công ty Big Tech thường sử dụng trong quá trình phỏng vấn.
+
+Đầu tiên là DSA, em luyện coding và LeetCode.
+
+Sau khi vượt qua vòng đăng ký ban đầu, em nhận được link để làm vòng OA – Online Assessment. Ở vòng này, đề gồm 3 câu DSA và 2 câu về Control Flow.
+
+Quá trình luyện LeetCode từ khóa học tại Engineer Pro, kết hợp với quá trình được mentor, đặc biệt là anh Bảo Nguyên, hướng dẫn đã giúp ích rất nhiều cho em để vượt qua vòng OA này.
+
+**Bạn có thể chia sẻ chi tiết hơn về quá trình tham gia Hackathon của Grab?**
+
+Đây là một cuộc thi Hackathon do Grab tổ chức cùng với Liên Hợp Quốc. Điểm đặc biệt là ban đầu bọn em không được tự form đội trước. Khi đến cuộc thi, các thành viên sẽ được bốc thăm để chia đội.
+
+Sau đó, các đội sẽ cùng nhau lên ý tưởng và phát triển sản phẩm trong quá trình Hackathon. Đội của bọn em có 5 thành viên. Bọn em phát triển một tính năng liên quan đến việc ghép xe của Grab trong điều kiện trời mưa.
+
+Ý tưởng là khi trời mưa, nhu cầu di chuyển tăng lên và giá cũng có thể tăng cao. Bọn em muốn phát triển tính năng ghép xe để người dùng có thể thuận tiện hơn trong việc di chuyển trong những thời điểm như vậy.
+
+Mặc dù sản phẩm của đội bọn em không giành được giải trong Hackathon, nhưng Grab vẫn lựa chọn thành viên trong team. Kết quả là có 3 trên tổng số 5 thành viên trong đội của bọn em được nhận vào chương trình Internship của Grab.
+
+**Tỷ lệ cạnh tranh của cuộc thi này khoảng bao nhiêu?**
+
+Ban đầu, vòng nộp hồ sơ có khoảng 600 CV. Sau đó, sau vòng OA thì còn khoảng 120 bạn bước vào vòng Hackathon. Grab tuyển khoảng 30 bạn từ 120 bạn đó.
+
+Như vậy, từ khoảng 600 hồ sơ ban đầu, số lượng ứng viên cuối cùng được lựa chọn chỉ còn khoảng 30 người.
+
+**Sau khi kết thúc Hackathon, bạn có phải trải qua thêm một vòng phỏng vấn nào nữa không?**
+
+Sau Hackathon thì em nhận offer luôn. Sau khi kết thúc cuộc thi, bên Grab yêu cầu bọn em gửi CV và gửi link thông tin cá nhân để họ review. Sau quá trình đó thì em nhận được offer Internship.
+
+**Bạn dự kiến bắt đầu onboard tại Grab vào thời điểm nào?**
+
+Em bắt đầu vào đầu tháng 8.
+
+**Grab có phải là mục tiêu mà bạn đặt ra khi bắt đầu học Mentor Pro không?**
+
+Ban đầu khi em mới tham gia Mentor Pro thì em mới học được khoảng 3 tháng. Lúc đó em vẫn đang trong quá trình ôn luyện và xây dựng nền tảng. Em thực sự không nghĩ mình có thể đặt chân tới Grab nhanh như vậy.
+
+Mục tiêu của em vẫn chỉ là tiếp tục học, luyện tập và chuẩn bị cho quá trình apply sau này. Cơ hội Grab đến khá bất ngờ so với những gì em dự tính.
+
+**Cảm xúc của bạn như thế nào khi nhận được offer?**
+
+Kiểu như là “unbelievable”. Bởi vì ban đầu khi bọn em làm sản phẩm thì đội không được giải. Em tham gia cuộc thi cũng chỉ với suy nghĩ đơn giản là thử sức và lấy kinh nghiệm.
+
+Em nghĩ nếu có thể hoàn thành cuộc thi thì mình cũng có thêm một dòng xác nhận tham gia Hackathon để đưa vào CV. Em hoàn toàn không nghĩ rằng mình lại có thể đậu Internship của Grab.
+
+Vì vậy, khi nhận được offer, cảm giác thực sự rất bất ngờ.
+
+**Trong quá trình tham gia Hackathon, giai đoạn nào khiến bạn cảm thấy khó khăn nhất?**
+
+Em nghĩ phần khó khăn nhất là lúc nghĩ ra ý tưởng. Còn về phần phát triển sản phẩm hay code thì bọn em không gặp quá nhiều vướng mắc.
+
+Khó nhất vẫn là phải suy nghĩ xem mình nên làm tính năng gì, sản phẩm gì và làm thế nào để ý tưởng đó có sự khác biệt, đủ ấn tượng để nổi bật giữa rất nhiều lựa chọn khác.
+
+**Bạn có nhớ chủ đề của đội giành giải nhất không?**
+
+Chủ đề của cuộc thi là Digital Innovation for Sustainable Living. Nếu em nhớ không nhầm thì đội giành giải nhất có ý tưởng liên quan đến việc giải quyết những hàng hóa, sản phẩm đang ở trạng thái cận đích.
+
+Tức là họ tận dụng các nguồn lực của Grab, chẳng hạn như hệ thống giao hàng hoặc giỏ hàng, để tạo ra một luồng giao hàng chuyên xử lý những sản phẩm cận đích. Qua đó, sản phẩm có thể góp phần giải quyết vấn đề lãng phí đối với những sản phẩm này.
+
+**Theo bạn, kiến thức được học tại Mentor Pro và Engineer Pro có đủ để vượt qua quá trình tham gia cuộc thi không?**
+
+Em thấy là thậm chí còn thừa. Bởi vì vòng tuyển intern của Grab lần này không có System Design.
+
+Chủ yếu, quá trình tuyển chọn tập trung vào DSA ở những vòng đầu, sau đó là khả năng làm việc nhóm và phối hợp với các thành viên để cùng nhau tạo ra sản phẩm trong Hackathon. Vì vậy, những kiến thức mà em được học và luyện tập tại Engineer Pro cũng như Mentor Pro giúp em có nền tảng khá đầy đủ để tham gia cuộc thi.
+
+**Nếu bây giờ apply vào các vị trí như fresher hoặc junior, bạn có tự tin không?**
+
+Em nghĩ khoảng 60–70%. Bởi vì bản thân em cũng không nghĩ mọi thứ lại đến bất ngờ như vậy. Hiện tại em vẫn đang trong quá trình ôn luyện và mới chỉ đồng hành cùng Mentor Pro khoảng 3 tháng, nên em vẫn còn khá nhiều thứ cần học thêm và cải thiện.
+
+**Cuối cùng, dựa trên trải nghiệm thực tế của mình, bạn có lời khuyên nào dành cho những bạn đang muốn apply vị trí thực tập hoặc các vị trí dành cho sinh viên chuẩn bị ra trường?**
+
+Em nghĩ có một điều rất quan trọng, đó là mình cứ làm đi. Đừng chờ đến khi cảm thấy mình đã hoàn hảo hoặc đã sẵn sàng 100% rồi mới bắt đầu.
+
+Đây cũng là lần đầu tiên em tham gia một cuộc thi như vậy nên ban đầu em rất lo. Thậm chí trước khi bước vào cuộc thi, em còn có suy nghĩ muốn chạy trốn. Nhưng cuối cùng em nghĩ đơn giản là cứ làm thôi. Cứ hiện diện, cứ bắt đầu, rồi cố gắng hết sức.
+
+Em nghĩ nếu mình cứ đứng ngoài và sợ hãi thì mình sẽ không biết bản thân có thể làm được đến đâu. Còn nếu mình cứ bước vào, cứ làm và cố gắng hết sức thì ít nhất mình cũng có thêm một trải nghiệm và biết được năng lực thực sự của mình.
+
+Từ một sinh viên năm cuối còn đang trong quá trình xây dựng nền tảng, chưa từng trải qua một buổi phỏng vấn chính thức và chỉ mới đồng hành cùng Mentor Pro khoảng 3 tháng, học viên đã bất ngờ có cơ hội bước vào một cuộc thi tuyển dụng của Grab.
+
+600 CV ban đầu được rút xuống còn khoảng 120 ứng viên bước vào Hackathon và cuối cùng Grab lựa chọn khoảng 30 bạn. Đặc biệt, dù đội không giành giải, 3 trong 5 thành viên vẫn được lựa chọn cho chương trình Internship, trong đó có học viên của Mentor Pro.
+
+Điều đáng chú ý trong câu chuyện này không chỉ nằm ở một offer Internship, mà còn ở cách một ứng viên trẻ chủ động nắm bắt cơ hội khi bản thân chưa cảm thấy hoàn toàn sẵn sàng.
+
+Từ những kiến thức về Backend, DSA, LeetCode đến quá trình được mentor đánh giá năng lực, đặt mục tiêu theo tuần và theo sát tiến độ, hành trình học tập đã giúp học viên có thêm nền tảng để bước vào một môi trường tuyển dụng thực tế.
+
+Và có lẽ, lời nhắn đáng nhớ nhất sau hành trình này cũng chính là điều bạn đã tự đúc kết từ trải nghiệm của mình: “Cứ làm, cứ hiện diện và cố gắng hết sức.”
+
+Bởi đôi khi, cơ hội không xuất hiện sau khi chúng ta đã chuẩn bị hoàn hảo. Cơ hội có thể đến ngay trong lúc chúng ta vẫn đang học, vẫn còn lo lắng và vẫn chưa thực sự tin rằng mình có thể làm được.
 
 
 </details>
