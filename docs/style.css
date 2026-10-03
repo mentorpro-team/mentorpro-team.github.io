@@ -903,12 +903,12 @@ img {
 /* ─── Mentor cards ─── */
 .mentor-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 16px;
   margin: 28px 0 8px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .mentor-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

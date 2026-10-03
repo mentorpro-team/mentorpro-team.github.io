@@ -48,6 +48,15 @@
     </a>
   </div>
 
+  <div class="mentor-card">
+    <img class="mentor-avatar" src="images/mentors/hung.png" alt="Anh Hùng" width="389" height="389" loading="lazy" decoding="async">
+    <h3 class="mentor-name">Anh Hùng</h3>
+    <p class="mentor-role">Engineer @ Employment Hero</p>
+    <a class="mentor-link" href="https://www.linkedin.com/in/vo-dinh-hung/" target="_blank" rel="noopener">
+      LinkedIn ↗
+    </a>
+  </div>
+
   <div class="mentor-card mentor-card--anon">
     <img class="mentor-avatar" src="images/mentors/anon-meta.svg" alt="Mentor ẩn danh" width="200" height="200" loading="lazy" decoding="async">
     <h3 class="mentor-name">Mentor X</h3>
@@ -69,7 +78,7 @@
 
 ### Highlights *(từ 7/2025 — tháng thành lập)*
 
-- **33 học viên** đã nhận offer, trong đó **18 offer** từ **5 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
+- **33 học viên** đã nhận offer, trong đó **18 offer** từ **6 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
 - Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT**.
 - Học viên đa dạng: fresh grad → 5+ năm kinh nghiệm, từ outsource đến trái ngành.
 - Trung bình **2 – 6 tháng** từ khi vào lộ trình tới khi nhận offer.
