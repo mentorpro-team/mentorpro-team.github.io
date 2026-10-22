@@ -2337,7 +2337,53 @@ Vì MentorPro là chương trình **mentor 1:1, huấn luyện cá nhân hoá t�
 
 ---
 
-# Tab 4 — Liên hệ
+# Tab 4 — Webinar
+
+> Tổng hợp các buổi **webinar chia sẻ từ cựu học viên** MentorPro — kinh nghiệm phỏng vấn, định hướng nghề nghiệp, hành trình chinh phục Big Tech. Click play để xem trực tiếp.
+
+<div class="webinar-grid" markdown="0">
+
+  <article class="webinar-card">
+    <div class="video-embed">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/iyeFAuuEBl4?list=PLQ3PDunNg9-g"
+        title="MentorPro — Cùng chinh phục Grab"
+        loading="lazy"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+    <h3 class="webinar-title">MentorPro: Cùng chinh phục Grab</h3>
+    <p class="webinar-desc">Cựu học viên chia sẻ hành trình nhận offer Grab — chuẩn bị phỏng vấn, chiến thuật ôn luyện DSA & System Design.</p>
+    <a class="webinar-link" href="https://www.youtube.com/watch?v=iyeFAuuEBl4&list=PLQ3PDunNg9-g" target="_blank" rel="noopener">Xem trên YouTube ↗</a>
+  </article>
+
+  <article class="webinar-card">
+    <div class="video-embed">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/Wov8xZnT9Zo"
+        title="Học viên MentorPro nhận 2 job offer — họ đã làm gì khác biệt?"
+        loading="lazy"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </div>
+    <h3 class="webinar-title">Học viên nhận 2 job offer chỉ sau một thời gian ngắn — họ đã làm gì khác biệt?</h3>
+    <p class="webinar-desc">Góc nhìn thẳng thắn về điều tạo nên khác biệt giữa học viên có nhiều offer và học viên bị stall — tư duy, kỷ luật, chọn lọc công ty apply.</p>
+    <a class="webinar-link" href="https://www.youtube.com/watch?v=Wov8xZnT9Zo" target="_blank" rel="noopener">Xem trên YouTube ↗</a>
+  </article>
+
+</div>
+
+> 📺 Thêm webinar mới sẽ được cập nhật tại đây. Theo dõi [YouTube Engineer Pro](https://www.youtube.com/@EngineerPro-Official) để không bỏ lỡ video mới.
+
+[⬆ Lên đầu trang](#top)
+
+---
+
+# Tab 5 — Liên hệ
 
 > MentorPro nhận liên hệ qua **Facebook Messenger** và **Zalo**. Inbox trực tiếp để gửi resume và được mentor screening.
 
