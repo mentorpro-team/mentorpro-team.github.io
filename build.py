@@ -498,6 +498,15 @@ def main() -> None:
     html_out, stories = write_story_pages(html_out)
     (OUT_DIR / "index.html").write_text(html_out, encoding="utf-8")
 
+    # Mirror the SPA home page at /<slug>/index.html for every tab beyond the
+    # first — this way deep links like /webinar or /lien-he load the full
+    # page directly (no 404.html flash + JS redirect). script.js reads the
+    # pathname and activates the matching tab on boot.
+    for slug in tab_slugs[1:]:
+        tab_dir = OUT_DIR / slug
+        tab_dir.mkdir(parents=True, exist_ok=True)
+        (tab_dir / "index.html").write_text(html_out, encoding="utf-8")
+
     if ASSETS_DIR.exists():
         copy_assets()
 
