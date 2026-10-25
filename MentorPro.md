@@ -79,7 +79,7 @@
 ### Highlights *(từ 7/2025 — tháng thành lập)*
 
 - **33 học viên** đã nhận offer, trong đó **18 offer** từ **6 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
-- Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT**.
+- Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT · Microsoft · WorldQuant**.
 - Học viên đa dạng: fresh grad → 5+ năm kinh nghiệm, từ outsource đến trái ngành.
 - Trung bình **2 – 6 tháng** từ khi vào lộ trình tới khi nhận offer.
 
