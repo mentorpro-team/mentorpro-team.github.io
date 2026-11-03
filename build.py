@@ -502,10 +502,21 @@ def main() -> None:
     # first — this way deep links like /webinar or /lien-he load the full
     # page directly (no 404.html flash + JS redirect). script.js reads the
     # pathname and activates the matching tab on boot.
+    #
+    # IMPORTANT: template uses relative asset paths (`style.css`,
+    # `images/...`) which resolve correctly from `/index.html` but would
+    # 404 under a nested URL like `/cau-chuyen-thanh-cong/`. Inject
+    # `<base href="/">` into <head> so all relative URLs resolve from
+    # root — same technique used by templates/story.html.
+    mirror_html = html_out.replace(
+        "<head>",
+        '<head>\n  <base href="/">',
+        1,
+    )
     for slug in tab_slugs[1:]:
         tab_dir = OUT_DIR / slug
         tab_dir.mkdir(parents=True, exist_ok=True)
-        (tab_dir / "index.html").write_text(html_out, encoding="utf-8")
+        (tab_dir / "index.html").write_text(mirror_html, encoding="utf-8")
 
     if ASSETS_DIR.exists():
         copy_assets()
