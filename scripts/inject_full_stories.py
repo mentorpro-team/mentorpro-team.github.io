@@ -23,14 +23,14 @@ MD_FILE = ROOT / "MentorPro.md"
 # chapters appear in one accordion — e.g. Hiếu with IBM part + Vin part).
 DOCS: dict[str, str | list[str]] = {
     "trang-ant":            "1dKO3nX95OHFc8O0fJFIX3emZZpR_FsX2tuHeWPznvJU",
-    "khanhchuong-anz":      "1YnNcmocI559_0t1cXr-eMdl8uZ-_OSG-U0LR_88VoHI",
+    "anon-anz":             "1YnNcmocI559_0t1cXr-eMdl8uZ-_OSG-U0LR_88VoHI",
     "tien-sap":             "1krzWbkd21HgEMBNg_zsDQlcaWBnjAcFah4IdJRUUISc",
     "chan-deputy":          "1p5gqA4gKxnYrY5VaOIYUFNLgLJEYQpPFs9BdKUwS0uE",
     "viet-vinbigdata":      "1NMyBX2edG1MbaG1aAy29qtQkb2e38CymbHyHfw1GYAk",
     "hau-nab":              "117FZewuFX_dvdefZeYTrqCal0qJSlmwiE4VfnDORpiQ",
     "long-mbbank":          "1rSQpLq6WVAZnQr6h2WPJOPX_WS1O0QU0OV_ADSJf6H8",
     "tuan-vin":             "1i9ZXXwPVM1n129X3he4Bvyhg3UwMAU8xABY1niU4SDk",
-    "khanhchuong-vin-grab": "134kNAu_Eu0bq-uwUFYqI7VBP5cFjgZQ4PAwXehfLEG0",
+    "anon-vin-grab":        "134kNAu_Eu0bq-uwUFYqI7VBP5cFjgZQ4PAwXehfLEG0",
     "dat-axon":             "18Ve_c-9iPEUeNGe3KlLgrStmDmR9G4VivchFsDXSaJ8",
     "hieu-ibm-vin": [
         "1VZQS1o-PpY9EPrM9WzBG2Ypf56TCd2wcSIGUTWX4XJw",  # P1 — IBM

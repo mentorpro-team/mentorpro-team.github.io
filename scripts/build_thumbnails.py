@@ -31,14 +31,14 @@ JPG_QUALITY = 82  # Sweet spot for crisp text + small file
 
 SLUGS = [
     "trang-ant",
-    "khanhchuong-anz",
+    "anon-anz",
     "tien-sap",
     "chan-deputy",
     "viet-vinbigdata",
     "hau-nab",
     "long-mbbank",
     "tuan-vin",
-    "khanhchuong-vin-grab",
+    "anon-vin-grab",
     "dat-axon",
     "hieu-ibm-vin",
     "thy-cognizant",
