@@ -12,7 +12,7 @@ portfolio/
 │   ├── script.js
 │   └── images/
 │       ├── brand/            # MentorPro logo, EP logo, hero banner, lộ trình banner
-│       ├── mentors/          # 5 avatar (lam.jpg, hoa.jpg, bao.png, nguyen.png, anon-meta.svg)
+│       ├── mentors/          # 8 avatar (lam.jpg, hoa.jpg, bao.png, nguyen.png, hung.png, minh.svg, anon-meta.svg, anon-grab.svg)
 │       ├── stories/          # 7 banner (trang-ant.png, …, long-mbbank.png)
 │       └── companies/        # 10 logo (grab.svg, nab.png, …)
 ├── build.py                  # ⭐ Parser + renderer chính

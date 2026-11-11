@@ -2,7 +2,7 @@
 
 > **Tagline:** *Học từ người đã làm. Đi nhanh hơn với người đã đi.*
 >
-> MentorPro kết nối bạn với mentor đến từ **NVIDIA, AWS, Google, ByteDance, TikTok** — đồng hành 1:1 đến khi nhận được job offer mong muốn.
+> MentorPro kết nối bạn với mentor đến từ **NVIDIA, Google, Meta, ByteDance/TikTok, Grab** — đồng hành 1:1 đến khi nhận được job offer mong muốn.
 
 ---
 
@@ -57,10 +57,28 @@
     </a>
   </div>
 
+  <div class="mentor-card">
+    <img class="mentor-avatar" src="images/mentors/minh.svg" alt="Anh Minh" width="200" height="200" loading="lazy" decoding="async">
+    <h3 class="mentor-name">Anh Minh</h3>
+    <p class="mentor-role">Incoming Senior SWE @ NVIDIA</p>
+    <span class="mentor-link mentor-link--disabled" aria-disabled="true">
+      LinkedIn sắp cập nhật
+    </span>
+  </div>
+
   <div class="mentor-card mentor-card--anon">
     <img class="mentor-avatar" src="images/mentors/anon-meta.svg" alt="Mentor ẩn danh" width="200" height="200" loading="lazy" decoding="async">
     <h3 class="mentor-name">Mentor X</h3>
     <p class="mentor-role">ex-Meta UK</p>
+    <span class="mentor-link mentor-link--disabled" aria-disabled="true">
+      LinkedIn ẩn theo yêu cầu
+    </span>
+  </div>
+
+  <div class="mentor-card mentor-card--anon">
+    <img class="mentor-avatar" src="images/mentors/anon-grab.svg" alt="Mentor ẩn danh" width="200" height="200" loading="lazy" decoding="async">
+    <h3 class="mentor-name">Mentor X</h3>
+    <p class="mentor-role">ex-SWE @ TikTok · Senior SWE @ Grab</p>
     <span class="mentor-link mentor-link--disabled" aria-disabled="true">
       LinkedIn ẩn theo yêu cầu
     </span>
@@ -78,7 +96,7 @@
 
 ### Highlights *(từ 7/2025 — tháng thành lập)*
 
-- **33 học viên** đã nhận offer, trong đó **18 offer** từ **6 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
+- **33 học viên** đã nhận offer, trong đó **18 offer** từ **8 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
 - Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT · Microsoft · WorldQuant**.
 - Học viên đa dạng: fresh grad → 5+ năm kinh nghiệm, từ outsource đến trái ngành.
 - Trung bình **2 – 6 tháng** từ khi vào lộ trình tới khi nhận offer.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#1f3d16"/>
+      <stop offset="100%" stop-color="#76b900"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)"/>
+  <rect width="200" height="200" fill="url(#halo)"/>
+  <text x="100" y="118"
+        text-anchor="middle"
+        font-family="'Plus Jakarta Sans','Inter',-apple-system,system-ui,sans-serif"
+        font-weight="800" font-size="110"
+        fill="rgba(255,255,255,0.95)">M</text>
+</svg>
