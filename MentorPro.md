@@ -2,7 +2,7 @@
 
 > **Tagline:** *Học từ người đã làm. Đi nhanh hơn với người đã đi.*
 >
-> MentorPro kết nối bạn với mentor đến từ **NVIDIA, Amazon, Google, Meta, ByteDance/TikTok, Grab** — đồng hành 1:1 đến khi nhận được job offer mong muốn.
+> MentorPro kết nối bạn với mentor đến từ **NVIDIA, Microsoft, Amazon, Google, Meta, ByteDance/TikTok, Grab** — đồng hành 1:1 đến khi nhận được job offer mong muốn.
 
 ---
 
@@ -66,6 +66,15 @@
     </span>
   </div>
 
+  <div class="mentor-card">
+    <img class="mentor-avatar" src="images/mentors/thien-anh.jpg" alt="Chị Thiên Anh" width="500" height="500" loading="lazy" decoding="async">
+    <h3 class="mentor-name">Chị Thiên Anh</h3>
+    <p class="mentor-role">SWE @ Microsoft USA</p>
+    <a class="mentor-link" href="https://www.linkedin.com/in/vu-thi-thien-anh/" target="_blank" rel="noopener">
+      LinkedIn ↗
+    </a>
+  </div>
+
   <div class="mentor-card mentor-card--anon">
     <img class="mentor-avatar" src="images/mentors/anon-meta.svg" alt="Mentor ẩn danh" width="200" height="200" loading="lazy" decoding="async">
     <h3 class="mentor-name">Mentor X</h3>
@@ -96,7 +105,7 @@
 
 ### Highlights *(từ 7/2025 — tháng thành lập)*
 
-- **35 học viên** đã nhận offer, trong đó **18 offer** từ **8 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
+- **35 học viên** đã nhận offer, trong đó **18 offer** từ **9 mentor Big Tech** được công khai chia sẻ ở 15 câu chuyện bên dưới.
 - Công ty học viên đã nhận offer: **ANT Group · ANZ · SAP · Deputy · Vin · VinBigData · NAB · MB Bank · IBM · Dytech Lab · Grab · Axon · Cognizant · FPT · Microsoft · WorldQuant**.
 - Học viên đa dạng: fresh grad → 5+ năm kinh nghiệm, từ outsource đến trái ngành.
 - Trung bình **2 – 6 tháng** từ khi vào lộ trình tới khi nhận offer.

@@ -17,7 +17,7 @@ Thư mục này chứa **MD context primer** dành cho các agent session sau n�
 - **MentorPro** — nền tảng mentor 1-1 với engineer từ Big Tech (NVIDIA, AWS, Google, TikTok, ByteDance).
 - Site là **single-page portfolio** với 4 tab: Mentor, Câu chuyện thành công, Lộ trình, Liên hệ.
 - **Hợp tác chiến lược** với **Engineer Pro** (engineerprogurus.com) — đối tác đào tạo, mentee được học miễn phí các khoá chỉ định.
-- Founded **7/2025**. Tới thời điểm hiện tại: **35 học viên** có offer, **8 mentor** Big Tech.
+- Founded **7/2025**. Tới thời điểm hiện tại: **35 học viên** có offer, **9 mentor** Big Tech.
 - **Stack:** Markdown source → Python build script → static HTML/CSS/JS → GitHub Pages.
 - **Live URL:** https://mentorpro-team.github.io/
 - **Repo:** https://github.com/mentorpro-team/portfolio
